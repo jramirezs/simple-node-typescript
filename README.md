@@ -2,7 +2,7 @@
 
 Simple Node + Typescript starter I use mostly as playground for creating and testing small programs.
 
-Target Node is **v14**.
+Target Node is **v18**.
 
 ## Getting started
 
