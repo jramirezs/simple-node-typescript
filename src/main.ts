@@ -1,4 +1,4 @@
-import { getRandomGenre } from './genrenator';
+import { getRandomGenre } from './genrenator.js';
 
 export async function main(): Promise<void> {
   console.log('All your base are belong to us!');
@@ -7,4 +7,4 @@ export async function main(): Promise<void> {
   console.log(`Now go and listen some ${genre}`);
 }
 
-main();
+await main();
