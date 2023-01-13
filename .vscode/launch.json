@@ -4,11 +4,10 @@
     {
       "name": "Launch Program",
       "type": "node",
+      "nodeVersionHint": 18,
       "request": "launch",
       "args": ["${workspaceRoot}/src/main.ts"],
-      "runtimeArgs": ["--nolazy", "-r", "ts-node/register", "-r", "dotenv/config"],
-      "cwd": "${workspaceFolder}",
-      "protocol": "inspector",
+      "runtimeArgs": ["--nolazy", "--loader", "ts-node/esm", "-r", "dotenv/config"],
       "sourceMaps": true,
       "outputCapture": "std"
     }
